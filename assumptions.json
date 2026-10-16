@@ -1,0 +1,73 @@
+{
+  "seed": 42,
+  "brand_prefix": "HM",
+  "n_stores": 200,
+  "store": {
+    "total_sqft": 1000,
+    "selling_pct": 0.7,
+    "usable_wall_ft": 100,
+    "max_floor_fixture_pct": 0.3
+  },
+  "sales_density_per_sqft_year": 35000,
+  "sales_mix": {
+    "FW_M": 0.49,
+    "FW_W": 0.21,
+    "APP_M": 0.15,
+    "APP_W": 0.15
+  },
+  "apparel_dept_mix": {
+    "TOP": 0.5,
+    "BOT": 0.35,
+    "ACC": 0.15
+  },
+  "sku_counts": {
+    "FW_M": 280,
+    "FW_W": 120,
+    "TOP_M": 130,
+    "TOP_W": 130,
+    "BOT_M": 100,
+    "BOT_W": 100,
+    "ACC_M": 70,
+    "ACC_W": 70
+  },
+  "price": {
+    "APP": {
+      "min": 500,
+      "max": 7000,
+      "asp": 1000
+    },
+    "FW": {
+      "min": 2000,
+      "max": 15000,
+      "asp": 4000
+    }
+  },
+  "tiers": {
+    "Best": {
+      "share": 0.2,
+      "velocity": 3.0
+    },
+    "Better": {
+      "share": 0.3,
+      "velocity": 1.4
+    },
+    "Good": {
+      "share": 0.5,
+      "velocity": 0.55
+    }
+  },
+  "velocity_noise": 0.25,
+  "price_elasticity": 0.4,
+  "target_weeks_cover": 10,
+  "max_weeks_cover": 16,
+  "demand_transfer": 0.5,
+  "simulate_weeks": 6,
+  "sim_noise": 0.5,
+  "lifecycle": {
+    "replenish_below_woc": 3.0,
+    "replenish_target_woc": 8.0,
+    "markdown_after_weeks": 6,
+    "markdown1_if_sell_through_below": 0.2,
+    "markdown2_if_sell_through_below": 0.08
+  }
+}

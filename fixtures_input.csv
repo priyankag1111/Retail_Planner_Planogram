@@ -1,0 +1,10 @@
+fixture_code,fixture_name,placement,allowed_depts,num_fixtures,wall_ft_each,footprint_sqft_each,sku_slots_each,pieces_each,levels,zone_rule
+WF-FW,"Footwear wall bay (shelved, 4ft)",WALL,FW,9,4,0,10,120,5,SALES
+WF-APP,"Apparel wall bay (rails+shelf, 4ft)",WALL,TOP|BOT,11,4,0,8,80,3,SALES
+WF-ACC,"Accessory wall bay (pegs, 4ft)",WALL,ACC,2,4,0,24,96,6,SALES
+GOND-FW,Footwear gondola (double-sided),FLOOR,FW,4,0,10,14,160,4,SALES
+GOND-ACC,Accessory gondola (double-sided),FLOOR,ACC,1,0,10,30,150,5,SALES
+ISL-FW,Footwear island / try-on bench,FLOOR,FW,2,0,16,8,64,2,SALES
+TBL-FLD,Folded-apparel table,FLOOR,TOP|BOT,5,0,12,6,72,2,SALES
+RACK-4W,4-way hanger rack (table hanger),FLOOR,TOP|BOT,5,0,9,8,64,2,SALES
+IMP-CW,Cash-wrap impulse unit,FLOOR,ACC,1,0,8,12,60,3,SALES
